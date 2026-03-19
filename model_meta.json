@@ -1,0 +1,51 @@
+{
+  "best_model": "Logistic Regression",
+  "numeric_cols": [
+    "Age",
+    "Tenure_Months",
+    "Monthly_Charges",
+    "Total_Charges",
+    "Num_Products",
+    "Support_Calls",
+    "Satisfaction_Score",
+    "Avg_Charge_Per_Month"
+  ],
+  "categorical_cols": [
+    "Contract_Type",
+    "Payment_Method",
+    "Internet_Service"
+  ],
+  "metrics": {
+    "Accuracy": 0.6275,
+    "Precision": 0.4355,
+    "Recall": 0.648,
+    "F1": 0.5209,
+    "ROC-AUC": 0.6973
+  },
+  "all_metrics": [
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.6575,
+      "Precision": 0.4483,
+      "Recall": 0.416,
+      "F1": 0.4315,
+      "ROC-AUC": 0.671
+    },
+    {
+      "Model": "XGBoost",
+      "Accuracy": 0.6125,
+      "Precision": 0.4118,
+      "Recall": 0.56,
+      "F1": 0.4746,
+      "ROC-AUC": 0.6343
+    },
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.6275,
+      "Precision": 0.4355,
+      "Recall": 0.648,
+      "F1": 0.5209,
+      "ROC-AUC": 0.6973
+    }
+  ]
+}
